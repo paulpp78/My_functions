@@ -10,30 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c)
-{
-    write(1, &c, 1);
-}
-
-int	ft_strlen(char *str)
-{
-    int	nbchar;
-
-    nbchar = 0;
-    while (*str++)
-        nbchar++;
-    return (nbchar);
-}
-
-int	ft_if_negative(int nb)
-{
-    if (nb < 0)
-    {
-        nb = -nb;
-        ft_putchar('-');
-    }
-    return (nb);
-}
 
 void	ft_putnbr(int nb)
 
