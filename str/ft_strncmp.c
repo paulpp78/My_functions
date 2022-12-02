@@ -6,9 +6,11 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 13:10:10 by pperigau          #+#    #+#             */
-/*   Updated: 2022/12/01 23:13:59 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/03 00:50:04 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "str.h"
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {

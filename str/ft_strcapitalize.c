@@ -6,9 +6,11 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 15:28:22 by pperigau          #+#    #+#             */
-/*   Updated: 2022/12/01 23:05:58 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/03 00:46:32 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "str.h"
 
 char	*ft_strcapitalize(char *str)
 {

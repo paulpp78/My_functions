@@ -6,9 +6,11 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 17:31:50 by pperigau          #+#    #+#             */
-/*   Updated: 2022/12/01 23:22:11 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/03 00:49:52 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "str.h"
 
 char	*ft_strstr(char *str, char *to_find)
 {

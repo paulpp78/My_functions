@@ -6,9 +6,11 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 10:27:49 by pperigau          #+#    #+#             */
-/*   Updated: 2022/12/01 23:18:39 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/03 00:47:22 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "str.h"
 
 char	*ft_strlowcase(char *str)
 {

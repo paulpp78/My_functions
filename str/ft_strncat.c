@@ -6,9 +6,11 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 15:28:51 by pperigau          #+#    #+#             */
-/*   Updated: 2022/12/01 23:08:27 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/03 00:47:32 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "str.h"
 
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {

@@ -6,9 +6,11 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 11:08:43 by pperigau          #+#    #+#             */
-/*   Updated: 2022/12/01 23:07:02 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/03 00:47:03 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "str.h"
 
 char	*ft_strcpy(char *dest, char *src)
 {
