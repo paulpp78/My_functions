@@ -6,20 +6,20 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 10:27:49 by pperigau          #+#    #+#             */
-/*   Updated: 2022/08/15 14:07:14 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/01 23:18:39 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strlowcase(char *str)
 {
-    int	low;
+	int	low;
 
-    low = 0;
-    while (str[low] != '\0')
-    {
-        if (str[low] >= 'A' && str[low] <= 'Z')
-            str[low] += 32;
-        low++;
-    }
-    return (str);
+	low = 0;
+	while (str[low] != '\0')
+	{
+		if (str[low] >= 'A' && str[low] <= 'Z')
+			str[low] += 32;
+		low++;
+	}
+	return (str);
 }

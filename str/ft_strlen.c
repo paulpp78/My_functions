@@ -6,16 +6,16 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/13 17:01:32 by pperigau          #+#    #+#             */
-/*   Updated: 2022/08/13 17:41:06 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/01 23:12:43 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strlen(char *str)
 {
-    int	nbchar;
+	int	nbchar;
 
-    nbchar = 0;
-    while (*str++)
-        nbchar++;
-    return (nbchar);
+	nbchar = 0;
+	while (*str++)
+		nbchar++;
+	return (nbchar);
 }

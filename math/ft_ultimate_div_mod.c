@@ -6,17 +6,19 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/13 16:35:39 by pperigau          #+#    #+#             */
-/*   Updated: 2022/08/14 14:57:14 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/01 23:35:34 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "math.h"
+
 void	ft_ultimate_div_mod(int *a, int *b)
 {
-    int	div;
-    int	mod;
+	int	div;
+	int	mod;
 
-    div = *a / *b;
-    mod = *a % *b;
-    *a = div;
-    *b = mod;
+	div = *a / *b;
+	mod = *a % *b;
+	*a = div;
+	*b = mod;
 }

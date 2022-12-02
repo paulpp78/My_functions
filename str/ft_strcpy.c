@@ -6,20 +6,20 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 11:08:43 by pperigau          #+#    #+#             */
-/*   Updated: 2022/08/14 13:26:35 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/01 23:07:02 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strcpy(char *dest, char *src)
 {
-    int	i;
+	int	i;
 
-    i = 0;
-    while (src[i] != '\0')
-    {
-        dest[i] = src[i];
-        i++;
-    }
-    dest[i] = '\0';
-    return (dest);
+	i = 0;
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }

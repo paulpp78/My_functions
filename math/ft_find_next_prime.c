@@ -1,11 +1,25 @@
-int		ft_find_next_prime(int nb)
-{
-    int		i;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_find_next_prime.c                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/12/01 22:51:52 by pperigau          #+#    #+#             */
+/*   Updated: 2022/12/01 23:34:15 by pperigau         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    i = 0;
-    while (!ft_is_prime(nb + i))
-    {
-        i++;
-    }
-    return (nb + i);
+#include "math.h"
+
+int	ft_find_next_prime(int nb)
+{
+	int	i;
+
+	i = 0;
+	while (!ft_is_prime(nb + i))
+	{
+	i++;
+	}
+	return (nb + i);
 }

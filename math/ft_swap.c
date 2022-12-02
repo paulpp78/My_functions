@@ -6,15 +6,17 @@
 /*   By: pperigau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/13 16:03:05 by pperigau          #+#    #+#             */
-/*   Updated: 2022/08/13 16:35:05 by pperigau         ###   ########.fr       */
+/*   Updated: 2022/12/01 23:34:41 by pperigau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "math.h"
+
 void	ft_swap(int *a, int *b)
 {
-    int	c;
+	int	c;
 
-    c = *a;
-    *a = *b;
-    *b = c;
+	c = *a;
+	*a = *b;
+	*b = c;
 }
