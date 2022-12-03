@@ -1,6 +1,8 @@
 #ifndef MATH_H
 # define MATH_H
 
+# include "../libft.h"
+
 int			ft_fibonacci(int index);
 int			ft_find_next_prime(int nb);
 int			ft_iterative_factorial(int nb);

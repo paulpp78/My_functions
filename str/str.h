@@ -1,6 +1,8 @@
 #ifndef STR_H
 # define STR_H
 
+# include "../libft.h"
+
 char			*ft_strupcase(char *str);
 char			*ft_strstr(char *str, char *to_find);
 char			*ft_strncpy(char *dest, char *src, unsigned int n);

@@ -1,6 +1,8 @@
 #ifndef IS_H
 # define IS_H
 
+# include "../libft.h"
+
 int	ft_is_prime(int nb);
 int	ft_if_negative(int nb);
 int	ft_str_is_alpha(char *str);
