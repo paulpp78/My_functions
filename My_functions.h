@@ -1,6 +1,7 @@
 
 #ifndef LIBFT_MY_FUNCTIONS_H
 #define LIBFT_MY_FUNCTIONS_H
+#include "unistd.h"
 int     ft_fibonacci(int index);
 int		ft_find_next_prime(int nb);
 int		ft_is_prime(int nb);
