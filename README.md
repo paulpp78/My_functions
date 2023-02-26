@@ -43,3 +43,8 @@ ft_putstr<br>
 ft_atoi<br>
 ft_putchar<br>*
 Pour plus d'informations sur chacune des fonctions, consultez les fichiers sources correspondants.
+## Contribuer
+Les contributions sont les bienvenues ! Si vous souhaitez ajouter une nouvelle fonction ou améliorer une fonction existante, n'hésitez pas à soumettre une pull request.
+
+### Licence
+Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
